@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .product {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .product:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .product h2 {
+            margin: 0 0 10px;
+            color: #007bff;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .product p {
+            margin: 0 0 10px;
+            text-align: center;
+            color: #555;
+        }
+
+        .slider {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .slider .slide {
+            flex: none;
+            width: 300px;
+            scroll-snap-align: start;
+            margin: 10px;
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .slider::-webkit-scrollbar {
+            display: none;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product">
+            <h2>VPS ByteVirt</h2>
+            <div class="slider">
+                <div class="slide">
+                    <h3>USA Biasa</h3>
+                    <p>CPU: Intel Xeon E3-1241 V3 (3.499GHz)</p>
+                    <p>RAM 2GB 1 Core: $2.6</p>
+                    <p>RAM 4GB 2 Core: $4.1</p>
+                    <p>RAM 5GB 3 Core: $6.2</p>
+                </div>
+                <div class="slide">
+                    <h3>USA Performance</h3>
+                    <p>CPU: AMD RYZEN 9 7950X3 (4.199GHz)</p>
+                    <p>RAM 2GB 1 Core: $4.1</p>
+                    <p>RAM 4GB 2 Core: $6.1</p>
+                </div>
+                <div class="slide">
+                    <h3>Singapura & Jepang</h3>
+                    <p>CPU: AMD RYZEN 9 3900X (3.799GHz)</p>
+                    <p>RAM 2GB 2 Core: $3.5</p>
+                    <p>RAM 4GB 2 Core: $5.1</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button onclick="window.open('https://wa.me/6285336580720?text=Beli%20produk%20VPS%20ByteVirt')">Minat</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Panel Pterodactil</h2>
+            <div class="slider">
+                <div class="slide">
+                    <h3>Egg Biasa</h3>
+                    <p>2GB: 1000</p>
+                    <p>3GB: 2000</p>
+                    <p>4GB: 3000</p>
+                    <p>5GB: 4000</p>
+                    <p>6GB: 5000</p>
+                    <p>7GB: 6000</p>
+                    <p>8GB: 7000</p>
+                    <p>9GB: 8000</p>
+                    <p>Unlimited: 10000</p>
+                </div>
+                <div class="slide">
+                    <h3>Egg PM2</h3>
+                    <p>2GB: 2000</p>
+                    <p>4GB: 5000</p>
+                    <p>6GB: 6500</p>
+                    <p>8GB: 8500</p>
+                    <p>Unlimited: 11000</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button onclick="window.open('https://wa.me/6285336580720?text=Beli%20produk%20Panel%20Pterodactil')">Minat</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <h2>Script</h2>
+            <img src="https://pomf2.lain.la/f/2u8f2t72.png" alt="Nahida-MD">
+            <p><strong>± S E L L - S C R I P T</strong></p>
+            <p><strong>Name :</strong> Nahida-MD</p>
+            <p><strong>Type :</strong> plugins (Esm)</p>
+            <p><strong>Features :</strong> 750+</p>
+            <p><strong>Example bot :</strong> <a href="https://chat.whatsapp.com/FX4K9oy5pfd4Jn3Wqv3Tjb">WhatsApp Bot</a></p>
+            <p><strong>Normal Price :</strong> 65.000</p>
+            <p>Masih Nego? Benefit Hangus!!</p>
+            <p>Sc no enc 95%</p>
+            <p>Support pairing</p>
+            <p>Support button</p>
+            <p>Size dibawah 5Mb</p>
+            <p>80% Scrape</p>
+            <p>Support Payment getaway</p>
+            <p><strong>Preview Features :</strong></p>
+            <ul>
+                <li>Tiktok downloader</li>
+                <li>Ig Downloader</li>
+                <li>Cpanel menu</li>
+                <li>Yt downloader</li>
+                <li>Yt search</li>
+                <li>Yt channel</li>
+                <li>Tiktok search</li>
+                <li>Atlantic H2h (getpayment, topup otomatis)</li>
+                <li>Cai (save session)</li>
+                <li>Controlnet (full setting model, ukuran, lora, hd ressolution, dll)</li>
+                <li>Upscale (full model hd from image)</li>
+                <li>ChatGpt</li>
+                <li>Bard ai</li>
+                <li>BlackBox ai</li>
+                <li>Gemini ai</li>
+                <li>Openai (Support Image & Vn/Audio)</li>
+                <li>Bing ai</li>
+                <li>Werewolf</li>
+                <li>Ulartangga</li>
+                <li>Hangman</li>
+                <li>Cocofun downloader</li>
+                <li>Tiktok stalk</li>
+                <li>Otakudesu search/detail/latest</li>
+                <li>Oploverz search/detail/latest</li>
+                <li>Menfess/Confess</li>
+                <li>Block/Unblock Cmd</li>
+                <li>Txt2img (full setting model, ukuran, lora, hd ressolution, dll)</li>
+                <li>Bingimg</li>
+                <li>Cpanel</li>
+                <li>...and more</li>
+            </ul>
+            <p><strong>Required :</strong></p>
+            <ul>
+                <li>Nodejs 18+</li>
+                <li>Ram: 4GB+</li>
+                <li>Cpu: 1+</li>
+            </ul>
+            
+            <p><strong>Benefit :</strong> Free Update always Time!</p>
+            <p>Free Apikey Premium</p>
+            <p><strong>Warning :</strong> 1 apikey urusan sendiri </p>
+            <p><strong>Payment :</strong> DANA, OVO, GOPAY</p>
+            <p><strong>Contact me :</strong> <a href="https://wa.me/628817057468">WhatsApp Me</a></p>
+            <div class="button-container">
+                <button onclick="window.open('https://wa.me/6285336580720?text=Beli%20produk%20Script')">Minat</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
